@@ -1,0 +1,53 @@
+*{
+  background-image:url('../images/bit-logo-gold.png') !important;
+  background-size:100px !important;
+  background-position:left !important;
+  background-repeat:no-repeat !important;
+  background-attachment:fixed !important;
+}
+.navbar-nav {
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  flex: 0 0 auto;
+  margin-right: 15px;
+  white-space: nowrap;
+}
+
+.card.over {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card.over:hover {
+  background-color: #48246e !important;
+  color: white !important;
+}
+
+.card.over:hover .card-title,
+.card.over:hover .card-text {
+  color: white !important;
+}
+
+.i:hover{
+  color: #ffc53a !important;
+}
+.card.over:hover .btn {
+  background-color: white !important;
+  color: #48246e !important;
+  border-color: white !important;
+}
+
+#stayahead:hover{
+color:#ffc53a !important;
+}
+
+.achive{
+background-color:linear-gradient(#6f5b8445 50% ,#48246ef0 50%);
+}
+.row{
+  background-color: whitesmoke;
+}
+.blink {
+  animation: blink-animation 0.3s steps(2, start) 3;
+}
